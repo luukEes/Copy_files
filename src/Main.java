@@ -3,8 +3,6 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.io.*;
-
-
 public class Main {
     private static void copyFile(String directory, String secondDirectory, String fileName, String secondFileName) throws FileNotFoundException{
         String finalNameFirst = fileName;
